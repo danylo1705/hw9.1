@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    background-color: #1F2326;
+    display: flex;
+    
+    
+    
+}
+.circle1{
+    position: absolute;
+    height: 90vh;
+    width: 90vh;
+    border-radius: 100%;
+    background:#FF4656;
+    top: -20vh;
+    left: -20vh;
+}
+.circle2{
+    position: absolute;
+    height: 20vh;
+    width: 20vh;
+    background: #EFEFEF;
+    border-radius: 100%;
+    bottom: -10vh;
+    left: 15vh;
+
+}
+.circle3{
+    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    background: #505155;
+    border-radius: 100%;
+    bottom: 10vh;
+    left: 10vh;
+
+}
+ .circle4{
+    position: absolute;
+    height: 70vh;
+    width: 70vh;
+    background: #292C31;
+    border-radius: 100%;
+    right: -120vh;
+    bottom:-30vh;
+
+}
+.circle5{
+    position: absolute;
+    height: 18vh;
+    width: 18vh;
+    background: #EFEFEF;
+    border-radius: 100%;
+    right: -96vh;
+    top: 10vh;
+
+}
+.circle6{
+    position: absolute;
+    height: 3vh;
+    width: 3vh;
+    background: #FF4656;
+    border-radius: 100%;
+    right: -90vh;
+    top: 3vh;
+
+}
+.circle7{
+    position: absolute;
+    height: 7vh;
+    width: 7vh;
+    background: #505155;
+    border-radius: 100%;
+    right: -99vh;
+    top: 28vh;
+}
+.content{
+    position: absolute;
+    height: 80vh;
+    width: 1500px;
+    background: white;
+    top: 10vh;
+    left: 23vh;
+    border-radius: 30px;
+    
+}
+.navbar{
+    display: flex;
+    height: 10%;
+    background: #1F2326;
+    border-radius: 30px 30px 0 0;
+    
+    
+}
+.navbar img{
+    
+   height: 70%;
+   margin-left: 50px;
+   margin-top: 12px;
+   
+}
+.line{
+    height: 70%;
+    width: 2px;
+    background: white;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+.navbar ul li{
+   margin-left: 30px;
+   font-size: 14px;
+}
+.avatar{
+    height: 3%;
+    width: 3%;
+    border-radius: 50px;
+    
+}
+.id{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.agents{
+    position: relative;
+    height: 85%;
+    background:url(./img/background.png) #FF4656 no-repeat center  ;
+    background-size: cover;
+    display: flex;
+    
+    
+}
+.agentstxt{
+    position : absolute;
+    font-size: 100px;
+    transform: rotate(90deg);
+    top: 25vh;
+    color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+.ukrect{
+    position: relative;
+    height: 70%;
+    width: 200px;
+    background: url(./img/ukimg.png) #1F2326 center;
+    top: 5vh;
+    left: 40vh;
+    background-size: cover;
+
+}
+.uk{
+    display: flex;
+}
+.uktxt{
+    position : absolute;
+    font-size: 15px;
+    transform: rotate(90deg);
+    left: -2vh;
+    top: 6vh;
+    color: #FF4656;
+    
+    
+}
+.uktxt2{
+    position : absolute;
+    font-size: 60px;
+    transform: rotate(90deg);
+    top: 12vh;
+    left: -14vh;
+    color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+.skills{
+    position: relative;
+    width: 230px;
+    height: 60px;
+    background: url(./img/Abilities.png) #1F2326 center no-repeat ;
+    background-size: 100%;
+    border: 2px solid #F8F8F8;
+    bottom: -45vh;
+    left: 1vh;
+}
+.skrect{
+    position: relative;
+    height: 70%;
+    width: 200px;
+    background: url(./img/skimg.png) #1F2326 center;
+    top: 5vh;
+    left: 40vh;
+    background-size: cover;
+
+}
+.sk{
+    display: flex;
+    margin-left: 130px;
+}
+.sktxt{
+    position : absolute;
+    font-size: 15px;
+    transform: rotate(90deg);
+    left: -0.6vh;
+    top: 5vh;
+    color: #FF4656;
+
+    
+    
+}
+.sktxt2{
+    position : absolute;
+    font-size: 60px;
+    transform: rotate(90deg);
+    top: 5vh;
+    left: -7vh;
+    color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+.skills2{
+    position: relative;
+    width: 230px;
+    height: 60px;
+    background: url(./img/skabl.png) #1F2326 center no-repeat ;
+    background-size: 100%;
+    border: 2px solid #F8F8F8;
+    bottom: -45vh;
+    left: 1vh;
+}
+.rusrect{
+    position: relative;
+    height: 70%;
+    width: 200px;
+    background: url(./img/rusimg.png) #1F2326 center;
+    top: 5vh;
+    left: 40vh;
+    background-size: cover;
+
+}
+.rus{
+    display: flex;
+    margin-left: 130px;
+}
+.rustxt{
+    position : absolute;
+    font-size: 15px;
+    transform: rotate(90deg);
+    left: 1.5vh;
+    top: 2.8vh;
+    color: #FF4656;
+    
+    
+}
+.rustxt2{
+    position : absolute;
+    font-size: 60px;
+    transform: rotate(90deg);
+    top: 6vh;
+    left: -8vh;
+    color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+.skills3{
+    position: relative;
+    width: 230px;
+    height: 60px;
+    background: url(./img/rusabl.png) #1F2326 center no-repeat ;
+    background-size: 100%;
+    border: 2px solid #F8F8F8;
+    bottom: -45vh;
+    left: 1vh;
+}
+.chnrect{
+    position: relative;
+    height: 70%;
+    width: 200px;
+    background: url(./img/chnimg.png) white center;
+    top: 5vh;
+    left: 40vh;
+    background-size: cover;
+
+}
+.chn{
+    display: flex;
+    margin-left: 130px;
+}
+.chntxt{
+    position : absolute;
+    font-size: 15px;
+    transform: rotate(90deg);
+    left: 2vh;
+    top: 2.8vh;
+    color: #FF4656;
+    
+    
+}
+.chntxt2{
+    position : absolute;
+    font-size: 60px;
+    transform: rotate(90deg);
+    top: 6vh;
+    left: -8vh;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.skills4{
+    position: relative;
+    width: 230px;
+    height: 60px;
+    background: url(./img/chnabl.png) white center no-repeat ;
+    background-size: 100%;
+    border: 2px solid #1F2326;
+    bottom: -45vh;
+    left: 1vh;
+}
+
+
+
+
+
+
+
